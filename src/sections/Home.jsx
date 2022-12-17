@@ -7,7 +7,9 @@ const Home = () => {
     useEffect(() => {
         Typewrite(typewriterRef.current, [
             "I am a programmer",
-            "I kidnap children"
+            "I am a web developer",
+            "I am a game developer",
+            "I am 16 years old"
         ])
     }, [])
 
