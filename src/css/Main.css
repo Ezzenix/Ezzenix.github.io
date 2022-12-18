@@ -44,3 +44,17 @@
 body::-webkit-scrollbar { width: 0 !important }
 body { overflow: -moz-scrollbars-none; }
 body { -ms-overflow-style: none; }
+
+
+
+#wip {
+    font-size: 1vw;
+    font-weight: 300;
+    position: fixed;
+    top: 8px;
+    left: 0px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    opacity: 0.25;
+}

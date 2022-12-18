@@ -1,0 +1,39 @@
+.bottom {
+    width: 100vw;
+    height: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom h1, .bottom button {
+    font-size: 0.75vw;
+    font-weight: 300;
+    color: white;
+    opacity: 0.15;
+    text-align: center;
+    width: fit-content;
+    background: none;
+    border: none;
+    transition: text-decoration 0.1s, opacity 0.1s;
+}
+
+.bottom button:hover {
+    text-decoration: underline;
+    opacity: 0.2;
+}
+
+
+/*
+font-size: 1vw;
+font-weight: 300;
+position: fixed;
+top: 8px;
+left: 0px;
+width: 100vw;
+text-align: center;
+color: white;
+opacity: 0.25;
+*/
